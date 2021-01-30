@@ -6,5 +6,5 @@ I'm an aspiring developer who is interested in the intersection of technology an
 
 ## Projects
 
-#### <a href="https://github.com/cwaskom/jigsaw_project"> Hotel Rates </a
+#### <a href="https://github.com/cwaskom/jigsaw_project"> Hotel Rates </a>
 This project calls the Amadeus Hotel Search API and extracts hotel rates for luxury hotels. This data is loaded into a PostgreSQL database with multiple tables. A Flask app is used to serve requested data to a Streamlist frontend.
