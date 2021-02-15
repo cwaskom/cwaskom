@@ -9,5 +9,5 @@ I'm an aspiring developer who is interested in the intersection of technology an
 #### <a href="https://github.com/cwaskom/jigsaw_project"> Hotel Rates </a>
 This project calls the Amadeus Hotel Search API and extracts hotel rates for luxury hotels. This data is loaded into a PostgreSQL database with multiple tables. A Flask app is used to serve requested data to a Streamlit frontend.
 
-#### <a href="https://github.com/cwaskom/snow_project> Snow Alerts </a>
+#### <a href="https://github.com/cwaskom/snow_project"> Snow Alerts</a>
 This project runs every morning to alert me if there's snow in the forecast. First it calls the OpenWeatherMap API to retrieve the 5-day forecast. The response is cleaned and searches for snow in the forecast. If there's snow, it converts the forecast data into a Pretty HTML Table and emails that to me using EZgmail.
