@@ -11,3 +11,6 @@ This project calls the Amadeus Hotel Search API and extracts hotel rates for lux
 
 #### <a href="https://github.com/cwaskom/snow_project"> Snow Alerts</a>
 This project runs every morning to alert me if there's snow in the forecast. First it calls the OpenWeatherMap API to retrieve the 5-day forecast. The response is cleaned and searches for snow in the forecast. If there's snow, it converts the forecast data into a Pretty HTML Table and emails that to me using EZgmail.
+
+#### <a href="https://github.com/cwaskom/storage_scraper"> Storage Scraper</a>
+This project (still in process) runs every morning to scrape the rates of competitive storage facilities. First is uses BeautifulSoup to parse the HTML data into dictionaries that include unit sizes, rates, features, and availability. The data is saved into a PostgreSQL database using SQLAlchemy and retrieved using a Flask app.
